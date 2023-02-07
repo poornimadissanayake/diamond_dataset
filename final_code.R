@@ -198,3 +198,5 @@ ggplot(train, aes(ln_carat, ln_price, color = clarity)) +
        x = "Diamond Carat",
        y = "Price",
        color = "Diamond Clarity")
+
+head(train_scale)
